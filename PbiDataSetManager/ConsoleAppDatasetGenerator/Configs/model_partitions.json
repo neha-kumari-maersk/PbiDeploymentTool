@@ -1,0 +1,92 @@
+{
+  "datasets": [
+    {
+      "dataset_name": "dopm_##tenant_code##",
+      "definition": [
+        {
+          "table_name": "fact_moves",
+          "partitions": [
+            {
+              "partition_name": "active_data",
+              "source": {
+                "original_object_name": "vw_fact_equipmentactivity",
+                "new_object_name": "vw_fact_equipmentactivity"
+              },
+              "partition_filters": [ "[FrequencyId] <> 99" ]
+            }
+          ]
+        },
+        {
+          "table_name": "fact_visit",
+          "partitions": [
+            {
+              "partition_name": "active_data",
+              "source": {
+                "original_object_name": "vw_bridgevisit",
+                "new_object_name": "vw_bridgevisit"
+              },
+              "partition_filters": [ "[FrequencyId] <> 99" ]
+            }
+          ]
+        },
+        {
+          "table_name": "fact_vesselvisit",
+          "partitions": [
+            {
+              "partition_name": "active_data",
+              "source": {
+                "original_object_name": "vw_fact_vesselvisit",
+                "new_object_name": "vw_fact_vesselvisit"
+              },
+              "partition_filters": [ "[FrequencyId] <> 99" ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_name": "dopm_hist_##tenant_code##",
+      "definition": [
+        {
+          "table_name": "fact_moves",
+          "partitions": [
+            {
+              "partition_name": "hist_data",
+              "source": {
+                "original_object_name": "vw_fact_equipmentactivity",
+                "new_object_name": "vw_fact_equipmentactivity"
+              },
+              "partition_filters": [ "[FrequencyId] = 99" ]
+            }
+          ]
+        },
+        {
+          "table_name": "fact_visit",
+          "partitions": [
+            {
+              "partition_name": "hist_data",
+              "source": {
+                "original_object_name": "vw_bridgevisit",
+                "new_object_name": "vw_bridgevisit"
+              },
+              "partition_filters": [ "[FrequencyId] = 99" ]
+            }
+          ]
+        },
+        {
+          "table_name": "fact_vesselvisit",
+          "partitions": [
+            {
+              "partition_name": "hist_data",
+              "source": {
+                "original_object_name": "vw_fact_vesselvisit",
+                "new_object_name": "vw_fact_vesselvisit"
+              },
+              "partition_filters": [ "[FrequencyId] = 99" ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

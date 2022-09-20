@@ -1,0 +1,390 @@
+[
+	{
+		"env": "dev",
+		"tenants": [
+			{
+				"tenantId": 23,
+				"tenantCode": "PMN",
+				"name": "Moin",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 41,
+				"tenantCode": "NSA",
+				"name": "GTI Mumbai",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 49,
+				"tenantCode": "PTM",
+				"name": "Tangier",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 50,
+				"tenantCode": "TNG",
+				"name": "Tangier Med 2 (TMII)",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 69,
+				"tenantCode": "LAX",
+				"name": "Los Angeles P400",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 70,
+				"tenantCode": "MOB",
+				"name": "Mobile",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 31,
+				"tenantCode": "VLC",
+				"name": "Valencia",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 4,
+				"tenantCode": "BHR",
+				"name": "Bahrain",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 29,
+				"tenantCode": "ALG",
+				"name": "Algeciras",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT DOPM2 DEV",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT DOPM2 DEV",
+						"toWorkspace": "APMT DOPM2 DEV",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			}
+		]
+	},
+	{
+		"env": "prd",
+		"tenants": [
+			{
+				"tenantId": 23,
+				"tenantCode": "PMN",
+				"name": "Moin",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (PMN)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (PMN)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 41,
+				"tenantCode": "NSA",
+				"name": "GTI Mumbai",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (NSA)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (NSA)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 49,
+				"tenantCode": "PTM",
+				"name": "Tangier",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (PTM)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (PTM)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 50,
+				"tenantCode": "TNG",
+				"name": "Tangier Med 2 (TMII)",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (TNG)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (TNG)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 69,
+				"tenantCode": "LAX",
+				"name": "Los Angeles P400",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (LAX)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (LAX)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 70,
+				"tenantCode": "MOB",
+				"name": "Mobile",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (MOB)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (MOB)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 31,
+				"tenantCode": "VLC",
+				"name": "Valencia",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (VLC)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (VLC)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 4,
+				"tenantCode": "BHR",
+				"name": "Bahrain",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (BHR)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (BHR)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			},
+			{
+				"tenantId": 29,
+				"tenantCode": "ALG",
+				"name": "Algeciras",
+				"toDatasetName": "dopm",
+				"workspaceToDataset": "APMT Daily Operations Performance Management (DOPM) 2.0",
+				"reports": [
+					{
+						"reportName": "Daily Operations Performance Management",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (ALG)",
+						"connectToDataset": "dopm"
+					},
+					{
+						"reportName": "Daily Operations Performance Management Hist",
+						"fromWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0",
+						"toWorkspace": "APMT Daily Operations Performance Management (DOPM) 2.0 (ALG)",
+						"connectToDataset": "dopm_hist"
+					}
+				]
+			}
+		]
+	}
+]
