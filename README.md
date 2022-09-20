@@ -36,12 +36,12 @@ The first step is to edit the tenant_info.json file first.
 
 To execute the application use the following example code:
 ```sh
-./ConsoleAppDatasetGenerator.exe u="********" p="*********" pbit="C:\Users\DCA210\Documents\dopm_mvp" tenantid="***********" env=prd source="Databricks.Catalogs(""adb-***************.2.azuredatabricks.net"", ""sql/protocolv1/o/***************/****-******-********"", [Database=null, EnableExperimentalFlagsV1_1_0=null])" reports-only=true
+./ConsoleAppDatasetGenerator.exe u="********" p="*********" pbit="C:\Users\****\Documents\folder" tenantid="***********" env=prd source="Databricks.Catalogs(""adb-***************.2.azuredatabricks.net"", ""sql/protocolv1/o/***************/****-******-********"", [Database=null, EnableExperimentalFlagsV1_1_0=null])" reports-only=true
 ```
 
 ## License
 
-??????
+See License File
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
