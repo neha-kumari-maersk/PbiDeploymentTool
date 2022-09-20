@@ -1,10 +1,6 @@
 # PbiTools
 ## _Tools to automate Pbi Reports and Datasets Tasks_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 ## Features included in the application
 - Create Datasets from the pbi template file
 - Update Existing datasets in the power bi service to match the model in pbi template file
