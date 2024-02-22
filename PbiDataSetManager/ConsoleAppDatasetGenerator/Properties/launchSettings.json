@@ -2,7 +2,7 @@
   "profiles": {
     "ConsoleAppDatasetGenerator": {
       "commandName": "Project",
-      "commandLineArgs": "u=\"0e7e6249-6c2e-49d3-bf10-9151e585346d\" p=\"j@cBenQxH@W_Kd2A$0@$E0A@?$0a$4DG\" pbit=\"C:\\Users\\daniel\\Documents\\GitHub\\DOPM2_PBI\\dopm.pbit-code\" tenantid=\"05d75c05-fa1a-42e7-9cf1-eb416c396f2d\" env=prd reports-only=true"
+      "commandLineArgs": "u=\"0e7e6249-6c2e-49d3-bf10-9151e585346d\" p=\"Gtu8Q~hwQOrJRLOr4f_L~Aq6mC1aLW5ZKHInOa2N\" pbit=\"C:\\Users\\daniel\\Documents\\GitHub\\DOPM2_PBI\\dopm.pbit-code\" tenantid=\"05d75c05-fa1a-42e7-9cf1-eb416c396f2d\" env=prd reports-only=true"
     }
   }
 }
